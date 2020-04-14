@@ -10,7 +10,7 @@ It's magic!
     @{ Html.RenderElements(Model.Elements); }
 
 ### Example
-You have two IPublishedElements: [HeaderAndTextElement](Limetta.Umbraco.Demo.ModelsBuilder/Models/HeaderAndTextElement.generated.cs) and [ContactElement](Umbraco.Demo.ModelsBuilder/Models/ContactElement.generated.cs)
+You have two IPublishedElements: [HeaderAndTextElement](Limetta.Umbraco.Demo.ModelsBuilder/Models/HeaderAndTextElement.generated.cs) and [ContactElement](Limetta.Umbraco.Demo.ModelsBuilder/Models/ContactElement.generated.cs)
 
 #### Views
 [Views/Elements/HeaderAndTextElement.cshtml](Limetta.Umbraco.Demo.Web/Views/Elements/HeaderAndTextElement.cshtml) (Models builder model. No controller needed)
