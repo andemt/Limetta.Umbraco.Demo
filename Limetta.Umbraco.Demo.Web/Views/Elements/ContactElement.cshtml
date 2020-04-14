@@ -1,0 +1,8 @@
+﻿@model ContactElementViewModel
+<div>
+	<h2>@Model.Name</h2>
+	@if (Model.ImageUrl.IsValid())
+	{
+		<img src="@Model.ImageUrl" alt="Contact image"/>
+	}
+</div>
