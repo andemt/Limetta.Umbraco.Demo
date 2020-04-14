@@ -13,7 +13,7 @@ It's magic!
 You have two IPublishedElements (Nested Content): [HeaderAndTextElement](Limetta.Umbraco.Demo.ModelsBuilder/Models/HeaderAndTextElement.generated.cs) and [ContactElement](Limetta.Umbraco.Demo.ModelsBuilder/Models/ContactElement.generated.cs)
 
 #### Views
-[Views/Elements/HeaderAndTextElement.cshtml](Limetta.Umbraco.Demo.Web/Views/Elements/HeaderAndTextElement.cshtml) (Models builder model. No controller needed)
+[Views/Elements/HeaderAndTextElement.cshtml](Limetta.Umbraco.Demo.Web/Views/Elements/HeaderAndTextElement.cshtml) ([ModelsBuilder](https://our.umbraco.com/documentation/reference/templating/modelsbuilder/) model. No controller needed)
 
     @model HeaderAndTextElement
     <div>
