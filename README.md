@@ -1,7 +1,7 @@
-# Limetta Umbraco Demo
+## Rendering Nested Content/Elements "automatically"
+In Umbraco there is no built-in Nested Elements renderer. Here is one way to automatically setup a renderer. It supports strongly type models from ModelsBuilder and IPublishedElement. It also supports a custom controller, so you can use ViewModel, and it supports if you only want a razor partial file.
 
-## Limetta.Umbraco.Demo - Render Elements (Nested Content)
-It's magic!
+It's magic! :)
 
     @inherits UmbracoViewPage<HomePage>
     <! -- Render elements: -->
